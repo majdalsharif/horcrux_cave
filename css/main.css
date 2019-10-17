@@ -1,0 +1,185 @@
+body {
+  margin: 0;
+  background-color: #000;
+  min-height: 100vh;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin-right:3px;
+  text-align:right;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+
+.left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 39%;
+}
+
+.name {
+  font-family:monospace;
+  color:#fff;
+  margin-left: 223px;
+  font-size: 15px;
+  text-align:center;
+}
+.desktop {
+    text-align:left;
+    margin-bottom: 10px;
+    width: 800px;
+    padding: 9px;
+    padding-left: 10px;
+    background-color: #2c2c2c;
+}
+
+.root {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screenFrame {
+  height:400px;
+  background-color:#111;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.screen {
+  background-color: #222;
+  height: 400px;
+  width: 90%;
+  margin: 20px 0;
+  border-radius:5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.terminal {
+  height: 300px;
+  flex: 0 0 95%;
+  width:700px;
+  overflow-y: auto;
+  font-size: 13px;
+}
+.terminal::-webkit-scrollbar {
+    width: 8px;
+}
+.terminal::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+.terminal::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #ff0000;
+}
+
+.currentLine {
+  margin: 0 10px;
+  line-height: 1.2;
+  display: flex;
+}
+
+.prompt {
+  color: #ff0000;
+  font-family: monospace;
+  line-height: 1.2;
+  margin-right: 5px
+}
+
+.inputContainer {
+  flex: 1
+}
+
+.input {
+  border: none;
+  padding: 5;
+  margin: 0;
+  background: #222;
+  color: #fff;
+  width: 99%;
+  font-family: monospace;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.input:focus {
+  outline: 0;
+  font-size: 15px;
+
+}
+
+.output {
+  color: #fff;
+  font-family: monospace;
+  margin: 0;
+  line-height: 1.2;
+  word-break: break-all;
+  white-space: pre-wrap;
+}
+
+.outputContainer {
+  margin: 0 10px;
+}
+
+footer {
+  background: #222;
+  padding-bottom: 6px;
+  margin-top: auto;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+ }
+ }
+
+footer p {
+  font-size: 17px;
+  color:#fff;
+  text-align: center;
+  padding-top: 15px;
+}
+
+footer ul {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+footer li {
+    display: inline-block;
+    margin: 4px;
+}
+
+
+footer li a {
+    display: block;
+    text-decoration: none;
+    border-bottom: medium none;
+    padding: 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease-in 0s, all 1s ease 0s;
+    background: #444749;
+}
+
+footer .twitter:hover {
+  background-color:#00a9f1;
+}
+
+footer .linkedin:hover {
+  background-color:#006db3;
+}
+footer .github:hover {
+  background-color:#2f2f2f;
+}
