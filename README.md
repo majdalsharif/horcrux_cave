@@ -12,7 +12,7 @@ This is a terminal emulator for Harry Potter lovers. I named it "Horcrux Cave" i
 ```
 
 ### Project Story
-I like understanding things, and I like making things more. Since the terminal deals with the file system, I decided to learn how to create one. I also thought this project is going to be a great idea for beginners who knows too little about the command-line system and how to navigate the file-system through the terminal. That's why I decided to make it an educational challenge more than a game.
+I like understanding things, and I like making things more. Since the terminal deals with the file system, I decided to learn how to create one. I also thought that this project is going to be a great idea for beginners who knows too little about the command-line system and how to navigate the file-system through the terminal. That's why I decided to make it an educational challenge more than a game.
 
 ### Planning and Development Process
 ```TODOS```
