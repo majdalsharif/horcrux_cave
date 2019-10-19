@@ -26,18 +26,15 @@ Supported commands are:
 
     In order to ensures Voldemort's immortality, he split his soul into 8 parts and it's now hidden  inside many Horcruxes. One of these Horcruxes is an image file and this image contains part of his soul hidden inside it, can you try to find it? You're expected to learn aout steganography to solve this challenge. Use Google for that, duh!
 
-    - Navigate to steganography.txt to learn about it, but feel free to use Google to learn more and solve this challenge.
+    - Navigate to steganography.txt to learn about it, but feel free to use Google to learn more.
     - Go to image.txt and copy the image link that has the hidden message, sent from Harry to you!
-    - Read the hint file.
 
     `,
 
     'steganography.txt': `
 In modern digital steganography, data is first encrypted and then inserted using a special algorithm into image, audio or video files.`,
 
-    'image.txt': `Here's the image link https://bit.ly/2BmU6Sx`,
-    'hint.txt': `To reveal the secret message that is hidden inside another image, we must decode it by using the password.`,
-    'password.txt': `tryharder`,
+    'image.txt': `Here's the image link https://i.ibb.co/P4fPwDj/ican.png`,
 
     /**
     TODOS 'submit.exe': ` `,
