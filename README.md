@@ -6,18 +6,16 @@ You are a muggle who haven't used the command-line before. By exploring your sur
 
 
 ### TODOS
-* [ ] add mkdir, touch, grep and more commands!
-* [ ] improve the game story and the challenge
+* [ ] add mkdir, touch, grep and more commands
+* [ ] improve the challenge based on the story
 * [ ] write python or a js code to hide/extract hidden data from an image
 * [ ] improve the design and add audio sounds
 
-### Acknowledgments
-- Many thanks to everyone who made the first unit so great. Here's to more challenges! :beers:
 
 ### Inspiration
 - Harry Potter and The Deathly Hallows Part 2
-- CTF
+- CTF competitions
 
 ### References
 - https://www.codingame.com/playgrounds/9799/learn-solve-call-apply-and-bind-methods-in-javascript
-- Introducing JavaScript Game Development: Build a 2D Game from the Ground Up book
+
