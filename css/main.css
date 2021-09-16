@@ -29,6 +29,7 @@ body {
   font-size: 15px;
   text-align:center;
 }
+
 .desktop {
     text-align:left;
     margin-bottom: 10px;
@@ -140,7 +141,6 @@ footer {
   width: 100%;
   color: white;
   text-align: center;
- }
  }
 
 footer p {
